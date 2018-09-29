@@ -1,24 +1,40 @@
-Enter your height in inches 
-You entered your height as: 1751175.0 
 Enter your weight in pounds 
-You entered your weight as: 70.0 
-Your resultant BMI value is: 0.0 
-This BMI value is categorized as: Underweight 
+You entered your weight as: 175.0 
 Enter your height in inches 
-You entered your height as: 234.0 
+You entered your height as: 70.0 
+Your resultant BMI value is: 25.1 
+Your BMI value is categorized as: Overweight 
+Summary of values:
+ Height: 70.0 
+ Weight: 175.0 
+ Bmi: 25.1 
 Enter your weight in pounds 
-You entered your weight as: 23.0 
-Your resultant BMI value is: 0.3 
-This BMI value is categorized as: Underweight 
+You entered your weight as: 120.0 
 Enter your height in inches 
-You entered your height as: 2563.0 
+You entered your height as: 68.0 
+Your resultant BMI value is: 18.2 
+Your BMI value is categorized as: Underweight 
+Summary of values:
+ Height: 68.0 
+ Weight: 120.0 
+ Bmi: 18.2 
 Enter your weight in pounds 
-You entered your weight as: 3252.0 
-Your resultant BMI value is: 0.3 
-This BMI value is categorized as: Underweight 
+You entered your weight as: 225.0 
 Enter your height in inches 
-You entered your height as: 54.0 
-Enter your weight in pounds 
-You entered your weight as: 684.0 
-Your resultant BMI value is: 164.9 
+You entered your height as: 65.0 
+Your resultant BMI value is: 37.4 
 Your BMI value is categorized as: Obese 
+Summary of values:
+ Height: 65.0 
+ Weight: 225.0 
+ Bmi: 37.4 
+Enter your weight in pounds 
+You entered your weight as: 140.0 
+Enter your height in inches 
+You entered your height as: 67.0 
+Your resultant BMI value is: 21.9 
+Your BMI value is categorized as: Normal 
+Summary of values:
+ Height: 67.0 
+ Weight: 140.0 
+ Bmi: 21.9 

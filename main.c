@@ -28,19 +28,10 @@ int main(void){
     return 0;
 }
 
-//i thought that weight and height should be passed into function as parameters but the teacher says that the main function must look like above and not be changed.
-
 void calculateBMI () {
     double heightInches;
     double weightLbs;
     double bmiValue;
-    
-    //see pg 147 in stegman book for example to follow
-    printf(     "Enter your height in inches \n");
-    fprintf(fp, "Enter your height in inches \n");
-    scanf("%lf", &heightInches);
-    printf(     "You entered your height as: %.1lf \n", heightInches);
-    fprintf(fp, "You entered your height as: %.1lf \n", heightInches);
     
     printf(     "Enter your weight in pounds \n");
     fprintf(fp, "Enter your weight in pounds \n");
@@ -48,10 +39,15 @@ void calculateBMI () {
     printf(     "You entered your weight as: %.1lf \n", weightLbs);
     fprintf(fp, "You entered your weight as: %.1lf \n", weightLbs);
     
+    printf(     "Enter your height in inches \n");
+    fprintf(fp, "Enter your height in inches \n");
+    scanf("%lf", &heightInches);
+    printf(     "You entered your height as: %.1lf \n", heightInches);
+    fprintf(fp, "You entered your height as: %.1lf \n", heightInches);
+    
     bmiValue = (weightLbs * 703) / (heightInches * heightInches);
     printf(     "Your resultant BMI value is: %.1lf \n", bmiValue);
     fprintf(fp, "Your resultant BMI value is: %.1lf \n", bmiValue);
-    //display the user's bmiValue number score to one decimal place
     
     
     if (bmiValue < 18.5){
@@ -68,11 +64,9 @@ void calculateBMI () {
         fprintf(fp, "Your BMI value is categorized as: Obese \n");
     }
     
-    printf("Height: %.1lf \n Weight: %.1lf \n Bmi: %.1lf \n", heightInches, weightLbs, bmiValue);
+    printf(     "Summary of values:\n Height: %.1lf \n Weight: %.1lf \n Bmi: %.1lf \n", heightInches, weightLbs, bmiValue);
+    fprintf(fp, "Summary of values:\n Height: %.1lf \n Weight: %.1lf \n Bmi: %.1lf \n", heightInches, weightLbs, bmiValue);
     
-    
-    //do i need this return stmt?
     return;
-    //work on the if/else statements for underweight, overweight, etc.
-    //do i need a return statement?
+    
 }
